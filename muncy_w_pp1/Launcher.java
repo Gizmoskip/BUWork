@@ -13,8 +13,8 @@ public class Launcher{
 
 public static void main(String[] args) {
 	
-	String fileName = "log.txt";
-        int printFlag = 1;	
+	String fileName = "auth.log";
+        int printFlag = 0;	
 	PatternMatcher match = new PatternMatcher();
 	
 	Scanner sc = new Scanner(fileName);
